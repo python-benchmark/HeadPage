@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.14.0a3
 COPY . /headpage
 WORKDIR /headpage
 RUN pip3 install --upgrade pip && \
